@@ -387,16 +387,195 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+    /*Tablet styles here*/
+
+/* General styles */
+
+.content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+header {
+    display: flex;
+    justify-content: center;
+    
+}    
+
+header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: nowrap;
 }
+
+header a {
+    justify-content: flex-start;
+    width: 35%;
+}
+header nav {
+    width: 20%;
+    justify-content: flex-end;
+    
+}
+
+
+header-divider {
+    display: none;
+}
+
+/* Hero Area */
+
+.hero-area {
+    justify-content: center;
+}
+
+.hero-area .content-wrapper{
+    justify-content: flex-start;
+    
+}
+
+/* Aside */
+
+aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+    margin: 0;
+    width: 45%;
+  
+}
+
+
+
+
+/* Features */
+
+
+
+.features h2 {
+    margin-bottom: 35px;
+}
+
+
+
+.features .features-items {
+    align-items: flex-start;
+    
+}
+
+.features-items article {
+    width: 33%;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+/* Reviews */
+
+.reviews .content-wrapper {
+    justify-content: flex-start;
+}
+
+.reviews .content-wrapper h2 {
+    margin-bottom: 20px;
+}
+
+.reviews article {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.reviews article {
+    width: 50%;
+}
+
+.reviews article .div {
+    margin-left: 7px;
+}
+
+/* Footer */
+
+footer .content-wrapper {
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    width: 78%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+footer .contact {
+    width: 42%;
+    
+}
+
+/***************** About Page Tablet *****************/
+
+/*Mission Area*/
+
+.mission-content {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+} 
+
+.mission-content p {
+  
+    width: 47%;
+  
+    
+}
+
+.contact-section .content-wrapper {
+    justify-content: flex-start;
+}
+
+.contact-section .content-wrapper h2 {
+    width: 79%;
+    justify-content: flex-start;
+
+}
+
+.contact-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+   
+}
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    /*Desktop styles here*/
+
+
+
+}
+
+
 
 /* ==========================================================================
    Print styles.
