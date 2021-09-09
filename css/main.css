@@ -157,7 +157,7 @@ footer p {
 
 footer .content-wrapper {
     width: 55%;
-    padding: 50px 0;
+    margin: 50px 0;
 }
 
 footer .contact {
@@ -247,31 +247,6 @@ aside {
     margin: 20px 0;
 }
 
-
-/**************** Mobile Styles FAQ Page ****************/
-
-.faq {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-.faq .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin-top: 50px 0 0 0;
-}
-
-.faq h2 {
-    margin-bottom: 40px;
-}
-
-.faq-content {
-    margin-bottom: 50px;
-}
 /**************** Mobile Styles About Page ***************/
 
 .mission {
@@ -291,6 +266,33 @@ aside {
 .contact-content p {
     margin: 0;
 }
+
+
+/**************** Mobile Styles FAQ Page ****************/
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 50px 0 0 0;
+}
+
+.faq h2 {
+    margin-bottom: 40px;
+}
+
+.faq-content {
+    margin-bottom: 50px;
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -442,7 +444,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-    width: 50%;
+    width: 62%;
 }
 
 /* Reviews */
@@ -494,7 +496,7 @@ footer .copyright {
 }
 
 .contact-section .content-wrapper h2 {
-    width: 79%;
+    width: 80%;
 }
 
 .contact-content {
@@ -504,12 +506,18 @@ footer .copyright {
 }
 
 /* ========================================================================================================= FAQ Page ============================================= */
+
+
+header {
+    padding: 15px 0;
+  }
+
 .faq .content-wrapper {
     justify-content: space-between;
 }
 
 .faq-content {
-    flex-basis: 40%;
+    flex-basis: 45%;
 }
 
 .faq h2 {
@@ -522,16 +530,76 @@ footer .copyright {
 @media only screen and (min-width: 1200px) {
 /************ DESKTOP STYLES HERE *************/
 
-header nav {
-    width: 14%;
+/* General Styles */
+.content-wrapper {
+    max-width: 960px;
+  
 }
 
-header nav ul {
-    justify-content: space-between;
+/* Homepage Header Styles */
+
+
+/* Hero Area */
+
+
+.hero-area .content-wrapper h1 {
+    max-width: 60%;
+    
 }
 
+
+/* Aside */
+
+aside .content-wrapper {
+    justify-content: space-around;
+    }
 }
 
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+    width: 30%;
+}
+
+
+/* Features */
+
+.features h2 {
+    width: 89%;
+}
+
+.features article {
+    flex-basis: 33%;
+    
+}
+
+/* Reviews */
+
+.reviews article div {
+    width: 42%;
+}
+
+/* Footer */
+
+
+/* ===================================================================== About Page Desktop ======================================== */
+
+
+.contact-section .content-wrapper h2 {
+    width: 100%;
+}
+
+
+
+/* ====================================================================== FAQ Page Desktop ======================================= */
+
+
+.faq h2 {
+    width: 95%;
+}
+
+
+
+}
 
 
 
@@ -542,6 +610,8 @@ header nav ul {
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
+
+
 
 /* ==========================================================================
    Print styles.
