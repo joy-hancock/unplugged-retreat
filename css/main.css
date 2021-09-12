@@ -255,6 +255,11 @@ footer .content-wrapper {
     margin: 50px 0;
 }
 
+footer .social h4 {
+    margin-bottom: 20px;
+
+}
+
 footer .contact-area {
     margin-bottom: 50px;
 }
@@ -271,6 +276,16 @@ footer .social-icons p {
     justify-content: center;
     align-items: center;
   }
+
+footer i {
+    font-size: 1.3em;
+    background-color: #527158;
+    padding: 16px;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    margin: 5px;
+}
 
 footer .copyright {
     margin: 20px 0;
@@ -656,6 +671,10 @@ aside .content-wrapper .form {
     width: 62%;
 }
 
+.features i {
+    font-size: 4.5em;
+}
+
 /* Reviews */
 
 .reviews h2 {
@@ -863,6 +882,8 @@ aside .content-wrapper .form {
     flex-basis: 33%;
     
 }
+
+
 
 /* Reviews */
 .reviews article div {
