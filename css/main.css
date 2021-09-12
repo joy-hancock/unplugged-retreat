@@ -255,15 +255,6 @@ footer .content-wrapper {
     margin: 50px 0;
 }
 
-footer .social h4 {
-    margin-bottom: 20px;
-
-}
-
-footer .contact-area {
-    margin-bottom: 50px;
-}
-
 footer .social-icons {
     display: flex;
     justify-content: space-around;
@@ -278,13 +269,12 @@ footer .social-icons p {
   }
 
 footer i {
-    font-size: 1.3em;
+    font-size: 1.2em;
     background-color: #527158;
-    padding: 16px;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
-    margin: 5px;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 4px;
+    
 }
 
 footer .copyright {
@@ -481,9 +471,9 @@ aside input[type=button] {
 .faq .content-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: row wrap;
-    margin: 50px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 .faq h2 {
@@ -624,6 +614,37 @@ header-divider {
     display: none;
 }
 
+
+/* Tablet Footer Styles */
+
+footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+ }
+ 
+ .footer-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     line-height: 1.714;
+ 
+ }
+ 
+ footer .footer-content {
+     margin-bottom: 0;
+ }
+ 
+ footer .footer-content h4 {
+    margin: 15px;
+}
+
+ footer i {
+     font-size: 1.3em;
+ }
+ 
+ footer .copyright {
+     width: 100%;
+ }
 /* Hero Area */
 
 .hero-area h1 {
@@ -717,28 +738,7 @@ aside .content-wrapper .form {
 
 
 
-/* Footer */
 
-footer .content-wrapper {
-   width: 65%;
-   margin: 100px 0;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    line-height: 1.714;
-
-}
-
-footer .contact {
-    margin-bottom: 0;
-}
-
-footer .copyright {
-    width: 100%;
-}
 
 /* ================================================================================================ About Page ========================================================================================= */
 
@@ -809,9 +809,7 @@ contact-content h4 {
 
 /* General Styles */
 
-header {
-    padding: 15px 0;
-  }
+
 
 
 .content-wrapper {
@@ -833,17 +831,30 @@ h2 {
       font-size: 1.125em;
       line-height: 1.333;
   }
+
+
+  /* Header Desktop Styles */
+
+  header {
+    padding: 15px 0;
+  }
+  header figure {
+    width: 30%;
+}
+
+
+  /* Footer Desktop Styles */
+ 
+footer h4 {
+    font-size: 2.1875em;
+}
+
+
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
     width: 80%;
 }
-
-/* Homepage Header Styles */
-header figure {
-    width: 30%;
-}
-
 
 
 /* Hero Area */
@@ -894,11 +905,7 @@ aside .content-wrapper .form {
     padding-bottom: 50px;
 
 }
-/* Footer */
 
-footer h4 {
-    font-size: 2.1875em;
-}
 
 
 
