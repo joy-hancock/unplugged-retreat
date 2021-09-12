@@ -728,7 +728,13 @@ footer .copyright {
     width: 45%;
 }
 
+/* Map Area */
 
+.map figure {
+    padding-bottom: 45.5%;
+}
+
+/* Contact Area */
 
 .contact-section .content-wrapper h2 {
     width: 80%;
@@ -876,6 +882,13 @@ footer h4 {
     width: 95%;
     font-size: 3em;
     }
+
+
+/* Map Area */
+
+.map figure {
+    padding-bottom: 37.5%;
+}
 
 .contact-content h4 {
     font-size: 1.875em;
